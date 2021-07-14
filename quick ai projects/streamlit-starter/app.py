@@ -27,4 +27,3 @@ pd.to_numeric(df_listings['price'])
 
 filtered_df_listings = df_listings[df_listings['price'].between(price_filter[0], price_filter[1])]
 strm.map(filtered_df_listings)
-
